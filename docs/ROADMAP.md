@@ -6,6 +6,7 @@
 - [x] Pin the 231 JevBench public tasks and preserve upstream license.
 - [x] Add diagnostic integrity checks and per-task comparison tooling.
 - [x] Prepare model documentation and historical comparison charts.
+- [x] Add a small reference SDK and inference tutorial with original-prompt compatibility tests.
 - [ ] Obtain recovery diagnostics and original continuation evaluator/source.
 - [ ] Reproduce the single-order historical fingerprint and inspect prediction differences.
 - [ ] Freeze the shared canonical runtime and dependency configuration.

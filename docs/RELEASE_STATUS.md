@@ -1,6 +1,6 @@
 # Model and release status
 
-The trained, frozen XAYA-2B checkpoint exists. The repository is presently a documentation and diagnostic repository, not a complete installable model release. There are no GitHub Release weight assets at this point.
+The trained, frozen XAYA-2B checkpoint exists. The repository now includes a small installable reference SDK and inference tutorial alongside documentation and diagnostics. A complete validated model release and public weight download remain unfinished. There are no GitHub Release weight assets at this point.
 
 ## What exists
 

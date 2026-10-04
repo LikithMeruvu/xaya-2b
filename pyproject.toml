@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xaya-2b"
+version = "0.0.0"
+description = "Small Python interface for the frozen XAYA-2B decision checkpoint"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.5",
+  "transformers==5.17.0",
+  "peft==0.21.1",
+  "bitsandbytes==0.49.0",
+  "accelerate>=1.10,<2",
+  "safetensors>=0.6",
+  "Pillow>=10",
+]
+
+[tool.setuptools]
+packages = ["xaya"]

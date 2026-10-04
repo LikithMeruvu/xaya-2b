@@ -38,4 +38,4 @@ On the documented public-231 protocol: XAYA-2B 64.07%, Open-Jev-2B 64.94%, Open-
 
 ## Publication placeholders
 
-The shared canonical runtime, tested SDK examples, serving instructions, final manifest, public URLs, and distribution license must be added after verification. Previously measured T4 timing is experimental runtime evidence; final canonical latency is pending. The original PT head remains available for historical reproducibility. Safetensors conversion has a separate hash and still needs end-to-end GPU parity verification.
+A small reference SDK and [inference tutorial](INFERENCE.md) now expose choice, score, yes/no, and image requests with the original decision prompt. The shared canonical runtime, serving instructions, final manifest, public model URLs, and distribution license still need verification. Previously measured T4 timing is experimental runtime evidence; final canonical latency is pending. The original PT head remains available for historical reproducibility. Safetensors conversion has a separate hash and still needs end-to-end GPU parity verification.

@@ -20,3 +20,6 @@ diagnostics/
 diagnostic-assessment/
 runs/
 .DS_Store
+*.egg-info/
+build/
+dist/
