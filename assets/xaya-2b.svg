@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">XAYA-2B — probabilities, not prose.</title>
+  <desc id="description">A 2B multimodal decision model for choices, ordinal scores, and yes or no probabilities.</desc>
+  <rect width="1200" height="300" rx="20" fill="#071f24"/>
+  <rect x="48" y="52" width="6" height="196" rx="3" fill="#70e4b7"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="84" y="124" font-size="72" font-weight="700" fill="#eef8f3">XAYA<tspan fill="#70e4b7">-2B</tspan></text>
+    <text x="84" y="182" font-size="34" fill="#70e4b7">Probabilities, not prose.</text>
+    <text x="84" y="234" font-size="23" fill="#c3d5d3">Multimodal decisions · Choices · Ordinal scores · Yes / No</text>
+  </g>
+</svg>

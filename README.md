@@ -1,12 +1,25 @@
-# XAYA-2B
-
-### Probabilities, not prose.
+![XAYA-2B — probabilities, not prose.](assets/xaya-2b.svg)
 
 A 2B multimodal structured decision model for **bounded choices, ordinal scores, and yes/no probabilities**.
 
 Supply state/context, a question, and a finite candidate set, optionally with an image. XAYA returns a probability distribution over the candidates through **CHOICE**, **SCORE**, and **NOUL**. Maximum options: **256**.
 
 **Release status:** the v1 weights are frozen. Canonical single-pass runtime reproduction is pending. This repository provides project documentation, historical benchmark evidence, preserved reference code, and working diagnostic tools. It does not yet provide a validated canonical SDK, server, or FINAL release.
+
+## Where is the model?
+
+**This GitHub repository currently has no downloadable model weights or FINAL release.** The frozen checkpoint exists in the original `xaya_2b_final_release.zip` archive. Its required components are:
+
+- `adapter/adapter_model.safetensors` — the trained LoRA adapter.
+- `decision_head.pt` — the original trained decision head.
+- `processor/`, `release_config.json`, and `model_lock.json` — processor files, pinned configuration, and identity.
+- The separate pinned `Qwen/Qwen3.5-2B` base, loaded at the revision listed below.
+
+The supplied Kaggle notebook used the checkpoint at `/kaggle/input/datasets/kartxlegendyt/xaya-2b-final`. That dataset name and the archive's filename do not establish a validated FINAL runtime. A public weight download and a usable canonical runtime remain unfinished release work.
+
+The attached canonicalization run completed one profile at **142/231 = 61.47%**, Brier **0.5946317165**, with Original **50/72**, Easy **48/48**, and Hard **44/111**. The other three profiles failed. It did **not** pass the historical fingerprint, so this repository must not claim that `XAYA-2B-v1.0.0-FINAL.zip` was produced.
+
+See [the current model and release status](docs/RELEASE_STATUS.md).
 
 ## The decision interface
 
@@ -43,10 +56,6 @@ Applications include agent/tool routing, RAG routing, support triage, moderation
 | TruthfulQA | 68.10% | 790 | Binary adaptation |
 
 JevBench tiers: **Original 50/72**, **Easy 48/48**, **Hard 50/111**. This is public development evidence, **not an official sealed Benchmark Heaven rank**. Results are historical project evidence, not newly rerun measurements. Internal image dev/test at 100% is internal/in-distribution evidence only.
-
-![Historical public-231 comparison](assets/xaya_vs_openjev_public231.png)
-
-![Historical Hard-111 comparison](assets/xaya_vs_openjev2b_hard111.png)
 
 The documented public-231 comparisons are Open-Jev-2B 64.94%, Open-Jev-9B 77.49%, and Open-Jev-27B v1.1 85.28%. Hard-111: Open-Jev-2B 41.44%. These comparisons do not establish statistical significance or a current leaderboard.
 
