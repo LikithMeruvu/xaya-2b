@@ -1,8 +1,10 @@
-![XAYA-2B — probabilities, not prose.](assets/xaya-2b.svg)
+# XAYA-2B — Multimodal Decision Model & Python SDK
 
-A 2B multimodal decision model for **choices, ordinal scores, and yes/no probabilities**. Give it context, a question, and up to **256 candidates**, optionally with an image. Get a probability distribution over those candidates.
+![XAYA-2B multimodal decision model — probabilities, not prose.](assets/xaya-2b.svg)
 
-Use it for tool routing, RAG routing, support triage, multimodal classification, and rubric scoring.
+**XAYA-2B** is a **2B multimodal structured decision model** built on **Qwen3.5-2B**, with a small **Python inference SDK** for text and images. Give it context, a question, and up to **256 candidates**. Get a probability distribution for **choices, ordinal scores, and yes/no decisions** through CHOICE, SCORE, and NOUL.
+
+XAYA supports **Jev-style finite-candidate decisions**, with documented historical evaluations on the **JevBench public development subset**. Potential applications include **agent/tool routing**, **RAG routing**, **support triage**, **multimodal classification**, and **rubric scoring**.
 
 ## Install
 

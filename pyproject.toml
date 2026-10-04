@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "xaya-2b"
 version = "0.0.0"
-description = "Small Python interface for the frozen XAYA-2B decision checkpoint"
+description = "XAYA-2B multimodal decision inference and ordinal scoring SDK"
+keywords = ["xaya", "multimodal", "decision-model", "jevbench", "qwen", "inference"]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -17,6 +18,10 @@ dependencies = [
   "safetensors>=0.6",
   "Pillow>=10",
 ]
+
+[project.urls]
+Repository = "https://github.com/LikithMeruvu/xaya-2b"
+Documentation = "https://github.com/LikithMeruvu/xaya-2b/blob/main/docs/INFERENCE.md"
 
 [tool.setuptools]
 packages = ["xaya"]
