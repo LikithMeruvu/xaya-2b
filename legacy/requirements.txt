@@ -1,0 +1,4 @@
+torch
+transformers==5.17.0
+peft==0.21.1
+bitsandbytes==0.49.0

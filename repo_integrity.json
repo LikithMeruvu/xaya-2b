@@ -1,0 +1,19 @@
+{
+  "protected_reference_files_sha256": {
+    "benchmarks/jevbench/easy.jsonl": "231df3c2c8e88a1a8c137ebe85de96ba70fabd330849098ac7b3c52c70b7172b",
+    "benchmarks/jevbench/hard.jsonl": "89e9e6becb33ed88c1de7d42dcc87531b2fb64cfaef4e1986faf7c37b3f80ebb",
+    "benchmarks/jevbench/LICENSE": "3e5beed774bb0bcbfb2fcf24ba9554212c6ae112937d308040989465ab0c5784",
+    "benchmarks/jevbench/original.jsonl": "5c2414edb3006b8bfcb70fda433f0f9ca015759433849f8d3104328a1f7c4180",
+    "benchmarks/jevbench/reference.json": "b7d85216a90213e7779f45a3e6bc1060142e3630d31ea53fc750d3c25e6e4fc3",
+    "legacy/broad_benchmark_worker.py": "18cd72cb80c983ff57df536dbbb518acaf85736873e34afdfe17cd594efa9bb0",
+    "legacy/inference.py": "328651677aff60e114e848592790c96ad5d1c21e4d451c52a16154fb271fa316",
+    "legacy/README.md": "d93f0b407bb29088a1265d716b33c4a21df596d5539ab9d5e844133d7c0cd29c",
+    "legacy/requirements.txt": "1a3ab2a8b260d5254497119c04a3388647f1db87e59ae156cdb495a93bd9bad1",
+    "release/artifact_hashes.json": "a44a3ddd6f7a9d152ed88deef9158931d4bef95b75a7c80aa5f3d12e2c2a1aac",
+    "release/jevbench_public_231_summary.json": "31ac9148e790729baba4e8048d8c20bdd3ea17fa07b5b8e856446b70847db330",
+    "release/local_eval_summary.json": "f4208107bdde410480fe635fb454e2733b5fe63354c5a74fac7a007ad95271f5",
+    "release/model_lock.json": "37cecfe9ad9b4fc558ae925c2844e0a427c46cb30dd722713a9703c2d47661e1",
+    "release/release_config.json": "3001fd1e2f1eb3d81cf8226f45ce0dc32add80b4ae609b88e772bc6d75d75469",
+    "release/training_dataset_manifest.json": "c6a0802778083e6664f54efae2fe927c3dae104c3b040ef5956d33cbb8a7ae57"
+  }
+}

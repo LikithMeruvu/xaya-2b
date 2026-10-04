@@ -1,0 +1,9 @@
+{
+  "sha256": "d1fc1e1d3ddd1795dcf207263424b320bb4692ccec7b092c9977e6e27c6a591a",
+  "model": "Qwen/Qwen3.5-2B",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dataset_manifest_sha256": "c6a0802778083e6664f54efae2fe927c3dae104c3b040ef5956d33cbb8a7ae57",
+  "locked_before_benchmarks": true,
+  "eval_max_length": 8192,
+  "locked_at": 1790748971.723274
+}

@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3.5-2B",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "max_options": 256,
+  "modalities": [
+    "text",
+    "image"
+  ],
+  "primitives": [
+    "choice",
+    "score",
+    "noul"
+  ],
+  "dataset_schema": "xaya-preprocessed-v1",
+  "created_at": 1790759538.0010839
+}

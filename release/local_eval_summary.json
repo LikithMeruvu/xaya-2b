@@ -1,0 +1,111 @@
+{
+  "text_dev.jsonl": {
+    "accuracy": 0.777529912796593,
+    "n": 9862,
+    "brier": 0.3358018121616993,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 0.8328136243703526,
+        "n": 4169
+      },
+      "score": {
+        "accuracy": 0.687429474159332,
+        "n": 4431
+      },
+      "noul": {
+        "accuracy": 0.9112519809825673,
+        "n": 1262
+      }
+    }
+  },
+  "text_test.jsonl": {
+    "accuracy": 0.798768115942029,
+    "n": 13800,
+    "brier": 0.30930182874921697,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 0.8415245737211635,
+        "n": 7976
+      },
+      "score": {
+        "accuracy": 0.6858367162832657,
+        "n": 4434
+      },
+      "noul": {
+        "accuracy": 0.9136690647482014,
+        "n": 1390
+      }
+    }
+  },
+  "image_dev.jsonl": {
+    "accuracy": 1.0,
+    "n": 1644,
+    "brier": 7.923008368533662e-10,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 1.0,
+        "n": 1544
+      },
+      "score": {
+        "accuracy": 1.0,
+        "n": 100
+      }
+    }
+  },
+  "image_test.jsonl": {
+    "accuracy": 1.0,
+    "n": 1572,
+    "brier": 7.94802081150106e-10,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 1.0,
+        "n": 1472
+      },
+      "score": {
+        "accuracy": 1.0,
+        "n": 100
+      }
+    }
+  },
+  "hard_dev.jsonl": {
+    "accuracy": 0.9939984996249063,
+    "n": 1333,
+    "brier": 0.010060435238950671,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 0.9925023430178069,
+        "n": 1067
+      },
+      "noul": {
+        "accuracy": 1.0,
+        "n": 266
+      }
+    }
+  },
+  "hard_test.jsonl": {
+    "accuracy": 0.9939984996249063,
+    "n": 1333,
+    "brier": 0.007712408402260983,
+    "by_primitive": {
+      "noul": {
+        "accuracy": 1.0,
+        "n": 267
+      },
+      "choice": {
+        "accuracy": 0.9924953095684803,
+        "n": 1066
+      }
+    }
+  },
+  "heldout_fin_sentiment.jsonl": {
+    "accuracy": 0.6237272727272727,
+    "n": 11000,
+    "brier": 0.5928311814227563,
+    "by_primitive": {
+      "choice": {
+        "accuracy": 0.6237272727272727,
+        "n": 11000
+      }
+    }
+  }
+}

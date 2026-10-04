@@ -1,0 +1,62 @@
+{
+  "source_archive_sha256": "d7c43d1c7e01c4597b464b78fae171241ecdbaac1a7088c68eaa3acb7ec1d61f",
+  "original_files_sha256": {
+    "status.json": "ba0a56ca6fa7eb6d97b8a46294ac5d80b6f4bccf892e0cce69f00f109c624c24",
+    "model_lock.json": "37cecfe9ad9b4fc558ae925c2844e0a427c46cb30dd722713a9703c2d47661e1",
+    "jevbench_public_231_summary.json": "31ac9148e790729baba4e8048d8c20bdd3ea17fa07b5b8e856446b70847db330",
+    "BENCHMARK_NOTE.txt": "e6c09bb74117c30da7df318ba29446edf11aa6b6b2a5d74621f0488675855be8",
+    "inference.py": "328651677aff60e114e848592790c96ad5d1c21e4d451c52a16154fb271fa316",
+    "README.txt": "ba69e47815b13efdd26af837a590930a9e2a3ce1e2a06187fd9a95d0754d9c6c",
+    "train_config.json": "085d12d78dfc3070840e345bf97c459faf5986521f92cc5a511d19ca1a7d6301",
+    "local_eval_summary.json": "f4208107bdde410480fe635fb454e2733b5fe63354c5a74fac7a007ad95271f5",
+    "decision_head.pt": "9a8337322ad17d35e6cda01d0958d0362404e036051f5998068e6a64a8ba60d7",
+    "training_dataset_manifest.json": "c6a0802778083e6664f54efae2fe927c3dae104c3b040ef5956d33cbb8a7ae57",
+    "requirements.txt": "1a3ab2a8b260d5254497119c04a3388647f1db87e59ae156cdb495a93bd9bad1",
+    "release_config.json": "3001fd1e2f1eb3d81cf8226f45ce0dc32add80b4ae609b88e772bc6d75d75469",
+    "processor/tokenizer_config.json": "5f7aa0d810000c4a0940b35c8f16e56c3439260fccc13a321826ebc3ccf2501f",
+    "processor/processor_config.json": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85",
+    "processor/tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "processor/chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+    "adapter/adapter_config.json": "588da25216e5ab04393dba2eb41b25a3c0235f22bcfefe95b138fb6cec4f9b9e",
+    "adapter/adapter_model.safetensors": "02feccef80ed3373674cb983968b9a4723c727a3082b711bcaf23ee6f2422727",
+    "adapter/README.md": "513342bed2d64152584ea6bfe69b25174bc780fd3ca6f52839355c510015b80a"
+  },
+  "historical_component_hashes_match": true,
+  "aggregate_lock_recipe_available": false,
+  "dataset_manifest_hash_verified": true,
+  "canonical_runtime_verified": false,
+  "training_performed_during_repository_creation": false,
+  "safetensors_conversion": {
+    "original_pt_sha256": "9a8337322ad17d35e6cda01d0958d0362404e036051f5998068e6a64a8ba60d7",
+    "new_safetensors_sha256": "3e791491105df90290b3b433a36249f5342c65cf08c8f4cb0f4a929309f2e058",
+    "exact_tensor_equality": true,
+    "tensors": {
+      "0.weight": {
+        "shape": [
+          2048
+        ],
+        "dtype": "torch.float32"
+      },
+      "0.bias": {
+        "shape": [
+          2048
+        ],
+        "dtype": "torch.float32"
+      },
+      "1.weight": {
+        "shape": [
+          256,
+          2048
+        ],
+        "dtype": "torch.float32"
+      },
+      "1.bias": {
+        "shape": [
+          256
+        ],
+        "dtype": "torch.float32"
+      }
+    },
+    "old_lock_applies_to_new_serialization": false
+  }
+}
